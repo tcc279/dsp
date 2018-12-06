@@ -49,13 +49,13 @@ What do the following commands do:
 `ls -Glp`  
 
 > > 
-`ls' -> list files in working directory 
-`ls -a` -> list all files including hidden firls starting with '.'  
-`ls -l` -> shows file or directory, size, modified date and time, file or folder name and owner of file and its permission   
-`ls -lh` -> does the same as -l but shows sizes in human readable format  
-`ls -lah`-> same as above but also includes hidden files  
-`ls -t` -> lists files by time/date 
-`ls -Glp` -> lists long format directories with "/" appended to the end and without user group names
+ls -> list files in working directory 
+ls -a -> list all files including hidden firls starting with '.'  
+ls -l -> shows file or directory, size, modified date and time, file or folder name and owner of file and its permission   
+ls -lh -> does the same as -l but shows sizes in human readable format  
+ls -lah-> same as above but also includes hidden files  
+ls -t -> lists files by time/date 
+ls -Glp -> lists long format directories with "/" appended to the end and without user group names
 
 
 ---
