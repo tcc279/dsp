@@ -20,7 +20,20 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+1. pwd -> print working directory path
+2. mkdir -> creates directory
+3. rm -r -> deletes a directory
+4. touch -> creates a file or multiple files
+5. rm -> deletes file
+6. mv x y -> renames file x to y
+7. ls -a -> list all files including hidden files
+8. cp x y -> copies file x to directory y
+9. cd -> change directory
+10. ls -> lists files in current directory
+11. mv -> moves file
+12. rmdir -> deletes empty directory
+13. cat -> shows text inside a .txt file
 
 ---
 
@@ -35,7 +48,15 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+`ls' -> list files in working directory 
+`ls -a` -> list all files including hidden firls starting with '.'  
+`ls -l` -> shows file or directory, size, modified date and time, file or folder name and owner of file and its permission   
+`ls -lh` -> does the same as -l but shows sizes in human readable format  
+`ls -lah`-> same as above but also includes hidden files  
+`ls -t` -> lists files by time/date 
+`ls -Glp` -> lists long format directories with "/" appended to the end and without user group names
+
 
 ---
 
@@ -43,15 +64,19 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+1. ls -l -> displays long format lisitng
+2. ls -t -> displays newest files first
+3. ls -u -> displays file access time
+4. ls -d -> displays directories only
+5. ls -c -> displays files by file timestamp
 
 ---
 
 ### Q4.  Xargs   
 
 What does `xargs` do? Give an example of how to use it.
-
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > The command xargs create an execution pipeline frm a standard input and allows tools like echo and rm to accept standard input as arguments. For example, the code 'echo one two three | xargs mkdir' will create three folders named one, two, and three
 
  
 
