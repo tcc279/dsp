@@ -5,7 +5,9 @@
 Code:
 
 import numpy as np
+
 import nsfg
+
 import thinkstats2
 
 preg = nsfg.ReadFemPreg()
