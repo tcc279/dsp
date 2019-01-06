@@ -5,7 +5,7 @@
 
 Code: 
 
-import numpy as np
+import numpy as np  
 import nsfg
 import thinkstats2
 import pandas
